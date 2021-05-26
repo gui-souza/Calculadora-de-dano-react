@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.selecionado {
+  border-style: solid;
+  border-color: blue;
+  border-radius: 20px;
+}
+
+#fundao {
+  display: flex;
+  background-color: lightgrey;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#calc {
+  padding-top: 20px;
+}
+
+.nome_objetos {
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#botao {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+#botao_clicavel {
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  font-size: larger;
+}
+
+#monstros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+#armas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.calc_negrito {
+  display: flex;
+  font-weight: bold;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#texto {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#historico {
+  display: flex;
+  line-break: normal;
+}
